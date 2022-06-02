@@ -8,14 +8,16 @@
 
 -  Se agregó la carpeta test para la implementacion de las pruebas a la API.
 -  Se desarrollo un cliente http con Axios para las pruebas de peticiones. se prueba con consola dentro de la carpeta test, llamando el archivo y la funcíon que se requiera.
--  Para la suite de prueba con los diferentes casos con supertest y mocha, correr el comando _npm run test_.
+-  Para la suite de prueba con los diferentes casos con supertest y mocha, correr el comando **npm run test**.
+
+**Se adjuntó una imágen con los resultados del APiRestFull.**
 
 #### Persistencia
 
 -  Se definió una misma lógica para la persistencia en el factory para los productos y mensajes.
 -  El DAO se selecciona según la persistencia que se necesite, por default es MONGO.
-   _MongoDB:_ node server.js --MONGO
-   _FileSystem:_ node server.js --FS
+   -  _MongoDB:_ node server.js --MONGO
+   -  _FileSystem:_ node server.js --FS
 
 ### Loggueo
 
